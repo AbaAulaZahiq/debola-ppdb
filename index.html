@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">	
+	
+	<meta name="description" content="Debola PPDB adalah solusi digital yang mempermudah pendaftaran siswa baru di sekolah Anda. Dimulai dari Rp 120.000 Anda dapat merasakan fitur-fitur Aplikasi Debola PPDB. Nikmati fitur canggih untuk mendukung proses pendaftaran siswa secara digital dan hemat waktu!">
+	<meta name="keywords" content="PPDB online, aplikasi PPDB, aplikasi PPDB murah, solusi PPDB, pendaftaran siswa baru, aplikasi sekolah, Debola PPDB">
+	<meta name="author" content="Debola PPDB">
+
+	<!-- Title -->
+	<title>Debola PPDB - Solusi Mudah PPDB Online</title>
+
+	<!-- Favicon -->
+	<link rel="icon" href="icon/logo.png" type="image/png">
+	<link rel="apple-touch-icon" href="icon/logo.png">
+
+	<!-- Open Graph Metadata -->
+	<meta property="og:title" content="Debola PPDB - Aplikasi PPDB Online yang Fleksibel Dengan Beragam Fitur">
+	<meta property="og:description" content="Permudah proses pendaftaran siswa baru di sekolah Anda dengan Debola PPDB. Praktis, hemat waktu, dan fleksibel.">
+	<meta property="og:url" content="https://example.com">
+	<meta property="og:image" content="https://example.com/assets/og-image.png">
+	<meta property="og:type" content="website">
+
+	<!-- Twitter Card Metadata -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Debola PPDB - Aplikasi PPDB Online yang Fleksibel Dengan Beragam Fitur">
+	<meta name="twitter:description" content="Debola PPDB adalah solusi digital untuk mempermudah proses PPDB di sekolah Anda.">
+	<meta name="twitter:image" content="https://example.com/assets/twitter-image.png">
+
+	<!-- Structured Data (Schema Markup) -->
+	<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "WebPage",
+			"name": "Debola PPDB - Aplikasi PPDB Online yang Fleksibel Dengan Beragam Fitur",
+			"description": "Debola PPDB adalah solusi digital yang mempermudah pendaftaran siswa baru di sekolah Anda. Dimulai dari Rp 120.000 Anda dapat merasakan fitur-fitur Aplikasi Debola PPDB. Nikmati fitur canggih untuk mendukung proses pendaftaran siswa secara digital dan hemat waktu!",
+			"url": "https://example.com",
+			"publisher": {
+			  "@type": "Organization",
+			  "name": "Debola PPDB",
+			  "url": "https://example.com"
+			}
+		}
+	</script>
+  	<!-- font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="bootstrap-5.2/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="selektor css v 2/mainstyle.css">
+	<link rel="stylesheet" type="text/css" href="selektor css v 2/mediaquerytablet.css">
+	<link rel="stylesheet" type="text/css" href="selektor css v 2/mediaquerymobile.css">
+
+	<title>Debola PPDB - Aplikasi PPDB Online yang Fleksibel Dengan Beragam Fitur</title>
+	<style type="text/css">
+		/**{border:  1px solid black}*/
+		.container{
+			max-width: 1200px;
+			margin: 0 auto;
+		}
+		section{
+			width: 100%;
+		}
+		.card{
+			transition: .3s;
+		}
+		img.invert{
+			filter: invert(100%);
+		}
+
+		/*hover style*/
+		.btn.bg-secondary:hover{
+			transition: .3s;
+			background: #512d91 !important;
+			box-shadow: 0 0 5px rgba(0, 0, 0,.6);
+		}
+		.btn.bg-outline-secondary:hover{
+			transition: .3s;
+			background: #6F42C1 !important;
+			color: white !important;
+		}
+		#btn-show-price:hover span{
+			transform: translate(10px);
+		}
+		#btn-contact-us:hover span{
+			width: 25px;
+		}
+		/*end hover style*/
+
+		/*font*/
+		.f-q {
+		  font-family: "Quicksand", sans-serif;
+		  font-optical-sizing: auto;
+		  font-weight: <weight>;
+		}
+		.f-p {
+		  font-family: "Poppins", sans-serif;
+		  font-weight: 600;
+		}
+		.f-s{
+			font-family: serif;	
+			font-size: 19px;		
+		}
+		/*end font*/
+
+		/*color theme*/
+		.text-secondary{color: #6F42C1 !important;}
+		.bg-secondary{background: #6F42C1 !important;}
+		.bg-outline-secondary{border:1px solid  #6F42C1 !important;}
+
+		.bg-third{background: #edeff5 !important;}
+		/*end color theme*/
+
+		.item-align-start{align-self: flex-start;}
+
+		/*hero style*/
+		header{
+			top: 0; left: 0;
+			z-index: 3;
+		}
+		header div{
+			max-width: 1200px;	
+			margin: auto;		
+		}
+		#btn-show-price span, #btn-contact-us span{
+			transition: .3s;			
+		}
+		#btn-contact-us span{
+			width: 0;
+		}
+		/*end hero style*/
+
+		/*sidebar*/
+		.sidebar{
+			height: 110vh;
+			top: 0; left: -350px;
+			position: fixed;
+			z-index: 5;
+			transition: .3s;
+		}
+		.black-screen{
+			background: rgba(0,0,0,.5);
+			width: 100%;
+			height: 100%;
+			top: 0; left: -1000px;
+			position: fixed;
+			z-index: 4;
+		}
+
+		#check-sidebar:checked ~ .sidebar{left: 0;}
+		#check-sidebar:checked ~ .black-screen{left: 0;}
+
+
+		section.hero {
+			height: 100vh;
+			max-height: 700px;
+		}
+
+		.hero .text-box{
+			top: 50%; left: 50%;
+			transform: translate(-50%,-50%);
+		}
+
+		.faq-container, .steps-container{
+			display: grid;
+			grid-template-columns: 1fr 1fr 	;
+		}
+
+		.steps-container-3-col, .feature-container{
+			display: grid;
+			grid-template-columns: 1fr 1fr 	1fr;	
+		}
+		.price-container{
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr;
+		}
+		.price-container .card{
+			margin: auto;
+		}
+		.price-container .card:hover{
+			transform: scale(1.05);
+		}
+
+		@media only screen and (max-width:  824px){
+			.feature-container, .steps-container, .steps-container-3-col, .price-container{			
+				grid-template-columns: 1fr 1fr;
+			}
+		}
+
+		@media only screen and (max-width:  600px){
+			.faq-container, .steps-container, .steps-container-3-col, .feature-container{
+				grid-template-columns: 1fr;
+			}
+
+			.price-container{
+				display: grid;
+				grid-template-columns: 1fr;
+			}
+		}
+	</style>
+</head>
+<body class="container-fluid p-0">
+	<input id="check-sidebar" type="checkbox" class="remove">
+	<!-- sidebar -->
+	<div class="sidebar flex-shrink-0 p-3 bg-white shadow border tablet-mobile" style="width: 280px;">		
+	    <a href="/" class="d-flex align-items-center pb-3 mb-3 link-dark text-decoration-none border-bottom">
+	    	<img src="icon/logo.png" width="30px" alt="logo debola market">
+	      <span class="fs-5 fw-semibold">Debola Market</span>
+	    </a>
+	    <ul class="list-unstyled">
+	      <li class="mb-1">
+      	   	<a class="nav-link f-15px mx-2 text-dark py-2" href="#">Beranda</a>
+		    <a class="nav-link f-15px mx-2 text-dark py-2" href="#fitur">Fitur</a>
+		    <a class="nav-link f-15px mx-2 text-dark py-2" href="#demo">Demo</a>
+		    <a class="nav-link f-15px mx-2 text-dark py-2" href="#penawaran">Penawaran</a>
+		    <a class="nav-link f-15px mx-2 text-dark py-2" href="#berlangganan">Berlangganan</a>
+		    <a class="nav-link f-15px mx-2 text-dark py-2" href="#harga">Harga</a>
+		    <a class="nav-link f-15px mx-2 text-dark py-2" href="#faq">FAQ</a>
+		    <a class="nav-link f-15px mx-2 text-dark py-2" href="#pesan">Pesan</a>
+	      </li>
+	    </ul>
+	    <div class="mt-3 pt-5">
+	    	<hr>
+			<label for="check-sidebar" class="left f-15px mx-2 text-dark py-1 w-100">Tutup</label>				
+		</div>
+	  </div>
+	  <div class="black-screen tablet-mobile"></div>
+	<!-- end sidebar -->
+
+	<!-- hero -->
+	<section class="hero p-relative">
+		<header class="pt-3 p-fixed bg-white w-100">
+		    <div class="between-center p-2">
+		    	<div class="brand between-center w-25pers w-50pers-tab gap-2 p-0">
+	    			<img src="icon/logo.png" width="30px" alt="logo debola market">
+				    <h1 class="fw-bold mb-0 w-25pers w-100 f-p fs-5">Debola PPDB</h1>			    		
+		    	</div>
+		    	<div class="desktop end-center w-75pers">
+				    <nav class="nav end-center">
+				        <a class="nav-link f-15px mx-2 text-dark py-1 f-p" href="#">Beranda</a>
+				        <a class="nav-link f-15px mx-2 text-dark py-1 f-p" href="#fitur">Fitur</a>
+				        <a class="nav-link f-15px mx-2 text-dark py-1 f-p" href="#demo">Demo</a>
+				        <a class="nav-link f-15px mx-2 text-dark py-1 f-p" href="#penawaran">Penawaran</a>
+				        <a class="nav-link f-15px mx-2 text-dark py-1 f-p" href="#berlangganan">Berlangganan</a>
+				        <a class="nav-link f-15px mx-2 text-dark py-1 f-p" href="#harga">Harga</a>
+				        <a class="nav-link f-15px mx-2 text-dark py-1 f-p" href="#faq">FAQ</a>
+				        <a class="nav-link f-15px mx-2 text-dark py-1 f-p" href="#pesan">Pesan</a>
+				    </nav>
+				</div>
+				<div class="tablet-mobile w-50 ">
+				    <label class="end-center w-100" for="check-sidebar">
+				      	<img src="icon/menu.png" width="25px">
+				    </label>
+				</div>
+			</div>
+		</header>
+		<div class="text-box text-center w-100pers w-75pers-tab w-80pers-mob p-absolute">
+		    <h2 class="f-q display-5"><span class="fw-bolder text-secondary">Debola</span> PPDB</h2>
+		    <h1 class="f-25px-mob display-3 f-p">Solusi Mudah untuk <br><span class="text-secondary">PPDB Online</span> Sekolah Anda</h1>
+		    <div class="">
+			    <p class="mb-4 f-s">Ciptakan pengalaman PPDB yang lancar untuk sekolah Anda, baik untuk petugas maupun pendaftar.</p>
+			    <div class="gap-2 center-center column-mob">				      	
+		        	<a href="https://wa.me/6281216227650?text=Halo, saya tertarik dengan aplikasi PPDB Anda. Apakah saya bisa mendapatkan informasi lebih lanjut?" id="btn-contact-us" class="btn rounded-0 text-white bg-secondary border-0 w-200px h-50px gap-3 center-center">
+		        		<span class="overflow-hidden">
+		        			<img src="icon/telephone.png" width="20px" class="invert">
+						</span>
+		        		Hubungi kami
+		        	</a>
+		        	<a href="#harga" id="btn-show-price" class="btn rounded-0 text-dark fw-bolder border-0 w-200px h-50px gap-3 center-center">Lihat Harga <span class="f-30px m-p-0">&xrarr;</span></a>
+			    </div>
+		    </div>
+		</div>
+	</section>
+	<!-- end hero -->
+
+	<!-- fitur utama -->
+	<section id="fitur">
+		<div class="container px-4 py-5 column">
+		    <h2 class="pb-2 center fw-bold">Mengapa Memilih Aplikasi PPDB Kami?</h2>
+		    <p class="w-75pers w-100pers-mob center m-p-0">Kami menawarkan banyak fitur untuk menunjang kegiatan ppdb di sekolah Anda</p>
+		    <div class="feature-container gap-4 py-5">
+		      <div class="feature col item-align-start">
+		        <div class="feature-icon d-inline-flex align-items-center justify-content-center ">
+		       		<img src="icon/responsive.png" width="50px" alt="aplikasi ppdb bisa diakses di semua perangkat">
+		        </div>
+		        <h6 class="fw-bold my-3">Kompatibel di Semua Perangkat </h6>
+		        <p class="f-s">Akses aplikasi dengan mudah di laptop, komputer, tablet, atau ponsel. Tidak ada batasan perangkat, sehingga lebih fleksibel untuk semua pengguna.</p>	
+		      </div>
+		      <div class="feature col item-align-start">
+		        <div class="feature-icon d-inline-flex align-items-center justify-content-center">
+		       		<img src="icon/web-content.png" width="50px" alt="debola ppdb memiliki tampilan yang ramah pengguna">
+		        </div>
+		        <h6 class="fw-bold my-3">Antarmuka Ramah Pengguna </h6>
+		        <p class="f-s">Tampilan yang sederhana dan mudah dipahami, bahkan oleh pengguna yang minim pengalaman IT. Aplikasi dirancang agar nyaman digunakan oleh siapa saja.</p>	 
+		      </div>
+		      <div class="feature col item-align-start">
+		        <div class="feature-icon d-inline-flex align-items-center justify-content-center">
+		       		<img src="icon/layout.png" width="50px" alt="kostumisasi formuilir pendaftaran yang mudah dan praktis">
+		        </div>
+		        <h6 class="fw-bold my-3">Formulir Kustomisasi Sesuai Kebutuhan</h6>
+		        <p class="f-s">Petugas PPDB dapat menyesuaikan isian formulir sesuai kebutuhan sekolah, menjadikan proses pendaftaran lebih relevan dan personal.</p>
+		      </div>
+		      <div class="feature col item-align-start">
+		        <div class="feature-icon d-inline-flex align-items-center justify-content-center ">
+		       		<img src="icon/cloud-sync.png" width="50px" alt="ekspor data pendaftaran ke excel dan pdf">
+		        </div>
+		        <h6 class="fw-bold my-3">Ekspor Data ke Excel dan PDF </h6>
+		        <p class="f-s">Kelola data pendaftar dengan mudah. Data peserta dapat dicetak ke Excel untuk analisis, atau ke PDF untuk dokumentasi resmi.</p>	
+		      </div>
+		      <div class="feature col item-align-start">
+		        <div class="feature-icon d-inline-flex align-items-center justify-content-center">
+		       		<img src="icon/types.png" width="50px" alt="debola ppdb memiliki landing page yang bisa dikustomisasi">
+		        </div>
+		        <h6 class="fw-bold my-3">Landing Page Dinamis dan Fleksibel </h6>
+		        <p class="f-s">Ubah tampilan landing page aplikasi sesuai kebutuhan sekolah. Ciptakan halaman yang sesuai dengan identitas sekolah Anda.</p>	 
+		      </div>
+		      <div class="feature col item-align-start ">
+		        <div class="feature-icon d-inline-flex align-items-center justify-content-center">
+		       		<img src="icon/text-format.png" width="50px" alt="kertas bukti pendaftaran bisa dikustomisasi oleh petugas ppdb">
+		        </div>
+		        <h6 class="fw-bold my-3">Kostumisasi Kertas Bukti Pendaftaran </h6>
+		        <p class="f-s">Ubah struktur dan teks di dalam kertas bukti pendaftaran sesuai dengan sekolah Anda.</p>
+		      </div>
+		      <div class="feature col item-align-start">
+		        <div class="feature-icon d-inline-flex align-items-center justify-content-center ">
+		       		<img src="icon/statistics.png" width="50px" alt="memudahkan kegiatan ppdb online dengan dashboard dinamis">
+		        </div>
+		        <h6 class="fw-bold my-3">Dashboard Dinamis dan Fleksibel</h6>
+		        <p class="f-s">Analisis data peserta dengan dashboard yang dapat kelola dengan mudah dan efisien. Grafik-grafik didalamnya dapat dapat Anda atur sesuai kebutuhan.</p>	
+		      </div>
+		      <div class="feature col item-align-start">
+		        <div class="feature-icon d-inline-flex align-items-center justify-content-center">
+		       		<img src="icon/folder-management.png" width="50px" alt="petugas ppdb bisa mengelola status pendaftaran">
+		        </div>
+		        <h6 class="fw-bold my-3">Kelola Status Pendaftaran dengan Mudah </h6>
+		        <p class="f-s">Verifikasi, tolak, atau terima pendaftaran langsung di dalam aplikasi. Semuanya dapat dilakukan dengan cepat dan efisien.</p>	 
+		      </div>
+		      <div class="feature col item-align-start">
+		        <div class="feature-icon d-inline-flex align-items-center justify-content-center">
+		       		<img src="icon/verification.png" width="50px" alt="calon peserta didik bisa mengecek status pendaftaran di aplikasi debola ppdb">
+		        </div>
+		        <h6 class="fw-bold my-3">Fitur Cek Status Pendaftaran untuk Pendaftar </h6>
+		        <p class="f-s">Calon peserta didik dapat dengan mudah memeriksa status pendaftaran mereka melalui halaman yang tersedia.</p>
+		      </div>
+		      <div class="feature col item-align-start">
+		        <div class="feature-icon d-inline-flex align-items-center justify-content-center ">
+		       		<img src="icon/print.png" width="50px" alt="fitur cetak bukti pendaftaran mandiri untuk calon peserta didik">
+		        </div>
+		        <h6 class="fw-bold my-3">Cetak Bukti Pendaftaran </h6>
+		        <p class="f-s">Pendaftar dapat mencetak bukti pendaftaran setelah berhasil mengirimkan data mereka.</p>	
+		      </div>
+		      <div class="feature col item-align-start">
+		        <div class="feature-icon d-inline-flex align-items-center justify-content-center">
+		       		<img src="icon/cloud-storage.png" width="50px" alt="data kegiatan ppdb online bisa dikelola dengan fitur backup dan import database">
+		        </div>
+		        <h6 class="fw-bold my-3">Fitur Backup dan Impor Database </h6>
+		        <p class="f-s">Lindungi data penting dengan fitur backup. Anda juga dapat mengimpor database untuk memudahkan pengelolaan.</p>	 
+		      </div>
+		      <div class="feature col item-align-start">
+		        <div class="feature-icon d-inline-flex align-items-center justify-content-center">
+		       		<img src="icon/file.png" width="50px" alt="template praktis untuk pengiriman email, atau buat template Anda sendiri">
+		        </div>
+		        <h6 class="fw-bold my-3">Kirim Email dengan Template Praktis. </h6>
+		        <p class="f-s">Petugas dapat mengirim email ke pendaftar langsung dari aplikasi menggunakan template email yang sudah disediakan atau membuat template email baru.</p>
+		      </div>	      
+		      <div class="feature col item-align-start">
+		        <div class="feature-icon d-inline-flex align-items-center justify-content-center">
+		       		<img src="icon/input.png" width="50px" alt="tersedia fitur input nilai akademik untuk peserta didik">
+		        </div>
+		        <h6 class="fw-bold my-3">Input Nilai Akademik untuk Seleksi Lanjutan </h6>
+		        <p class="f-s">Petugas PPDB dapat dengan mudah memasukkan nilai akademik peserta setelah proses seleksi offline. Fitur ini membantu mencatat dan mengevaluasi hasil seleksi secara efisien.</p>
+		      </div>
+		    </div>
+	    </div>
+	 </section>
+	<!-- end fitur utama -->
+
+
+	<!-- preview -->
+	<section id="demo" class="bg-third">
+	 <div class="container px-4 py-5">
+    	<div class="row g-lg-5 py-5">
+	    	<div class="col-lg-7 text-center text-lg-start">
+		        <h2 class="fw-bold display-6 mb-3 f-p">Lihat Cara Kerja <br> <span class="text-secondary">Debola PPDB</span> dalam Sekejap</h2>
+		        <p class="f-s">Ingin tahu bagaimana aplikasi PPDB kami bekerja? Tonton video demo kami dan lihat bagaimana mudahnya proses pendaftaran peserta, mulai dari pengisian formulir hingga verifikasi data. Dalam beberapa langkah cepat, Anda akan merasakan betapa efisien dan ramahnya aplikasi kami dalam mendukung proses pendaftaran di sekolah.</p>
+		      </div>
+		    <div class="col-md-10 mx-auto col-lg-5 border-b p-5 bg-white">
+		    	<video></video>
+		    </div>
+	    </div>
+	    <div class="row mt-3">
+		    <h4 class="fw-bold mb-4 center f-p">5 Langkah Mudah Regristasi PPDB di Aplikasi kami</h4>
+	    	 <div class="steps-container gap-4 mb-3">
+		        <div class="d gap-2 item-align-start between-start">
+		        	<h4  class="fw-bold m-0 rounded-2 p-2 bg-white center-center w-40px h-40px shadow">1</h4>
+		        	<div class="w-90pers">
+				        <h6 class="fw-semibold mb-3 f-p f-20px">Kunjungi aplikasi kami</h6>
+				        <p class="f-s">Mulai perjalanan pendaftaran dengan mengunjungi aplikasi PPDB kami yang mudah diakses melalui berbagai perangkat seperti laptop, tablet, atau ponsel.</p>
+		        	</div>
+		        </div>
+
+		        <div class="gap-2 item-align-start between-start">
+		        	<h4  class="fw-bold rounded-2 p-2 bg-white center-center w-40px h-40px shadow">2</h4>
+		        	<div class="w-90pers">
+			        	<h6 class="fw-semibold mb-3 f-p f-20px">Isi Formulir Pendaftaran</h6>
+			            <p class="f-s">Isi data peserta dengan lengkap dan jelas menggunakan formulir pendaftaran yang telah disesuaikan dengan kebutuhan sekolah Anda.</p>
+		        	</div>
+		        </div>
+
+		        <div class="gap-2 item-align-start between-start">
+		        	<h4  class="fw-bold rounded-2 p-2 bg-white center-center w-40px h-40px shadow">3</h4>
+		        	<div class="w-90pers">
+			            <h6 class="fw-semibold mb-3 f-p f-20px">Kirim Formulir Pendaftaran</h6>
+			            <p class="f-s">Setelah mengisi formulir, kirimkan data pendaftaran Anda dengan satu klik. Proses ini sangat cepat dan mudah dilakukan.</p>
+			        </div>			      
+		        </div>
+
+		        <div class="gap-2 item-align-start between-start">
+		        	<h4  class="fw-bold rounded-2 p-2 bg-white center-center w-40px h-40px shadow">4</h4>
+		        	<div class="w-90pers">
+			            <h6 class="fw-semibold mb-3 f-p f-20px">Lakukan Pembayaran Pendaftaran (bila ada)</h6>
+			            <p class="f-s">Jika ada biaya pendaftaran, lakukan pembayaran melalui metode yang tersedia, dan pastikan pendaftaran Anda terkonfirmasi.</p>
+			        </div>
+		        </div>
+
+		        <div class="gap-2 item-align-start between-start">
+		        	<h4  class="fw-bold rounded-2 p-2 bg-white center-center w-40px h-40px shadow">5</h4>
+		        	<div class="w-90pers">
+				        <h6 class="fw-semibold mb-3 f-p f-20px">Tunggu Data Diverifikasi Petugas PPDB</h6>
+				        <p class="f-s">Setelah pengiriman formulir, tunggu konfirmasi dari petugas PPDB yang akan memverifikasi data Anda untuk memastikan kelengkapan pendaftaran.</p>
+				    </div>
+		        </div>
+			</div>
+	    </div>
+  	</div>	
+  	</section>
+  	<!-- end preview -->
+
+
+  	<!-- penawaran  -->
+  	<section id="penawaran">
+		<div class="container px-4 py-5 my-5 column" id="penawaran">
+	    <h2 class=" center fw-bold f-p"><span class="text-secondary">Penawaran Spesial</span> untuk Anda!</h2>
+	    <p class="w-75pers w-100pers-mob center m-p-0 f-s">Kami berkomitmen untuk memberikan solusi terbaik dalam proses PPDB sekolah Anda. </p>
+	    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+	      <div class="feature col item-align-start">
+	        <h6 class="fw-bold mb-3 f-p  f-20px">Kostumisasi Aplikasi</h3>
+	        <p class="f-s">Aplikasi dapat disesuaikan dengan kebutuhan spesifik sekolah Anda, mulai dari formulir pendaftaran hingga tampilan halaman utama, sehingga cocok dengan identitas dan kebutuhan unik sekolah Anda.</p>	
+	      </div>
+	      <div class="feature col item-align-start">
+	        <h6 class="fw-bold mb-3 f-p  f-20px">Diskon Berlangganan</h3>
+	        <p class="f-s">Hemat lebih banyak dengan potongan harga 10% untuk langganan lebih dari 3 bulan. Pilihan yang ekonomis untuk penggunaan aplikasi jangka panjang.</p>	 
+	      </div>
+	      <div class="feature col item-align-start">
+	        <h6 class="fw-bold mb-3 f-p  f-20px">Tutorial Online</h3>
+	        <p class="f-s">Kami menyediakan sesi tutorial melalui Zoom untuk memastikan petugas PPDB memahami semua fitur aplikasi dan dapat menggunakannya dengan optimal.</p>
+	      </div>
+	      <div class="feature col item-align-start">
+	        <h6 class="fw-bold mb-3 f-p  f-20px">Dukungan Responsif</h3>
+	        <p class="f-s">Kami siap membantu menjawab pertanyaan atau menyelesaikan masalah Anda kapan saja melalui WhatsApp atau email dengan respons cepat dan solusi terbaik.</p>	
+	      </div>
+	      <div class="feature col item-align-start">
+	        <h6 class="fw-bold mb-3 f-p  f-20px">Fitur Lengkap</h5>
+	        <p class="f-s">Setiap paket memberikan Anda akses ke semua fitur penting seperti kustomisasi formulir pendaftaran, verifikasi data, pengiriman email, dan banyak lagi.</p>	 
+	      </div>
+	    </div>
+	 </div>
+	 </section>
+  	<!-- end penawaran -->
+
+
+  	<!-- cara berlangganan -->
+  	<section id="berlangganan">
+	  	<div class="container px-4 py-5">
+	  		<div class="row g-lg-5 py-5">
+		    	<div class="text-center">
+			        <h2 class="fw-bold mb-3 f-p">Cara Berlangganan Aplikasi PPDB</h2>
+			    </div>
+			  	 <div class="steps-container-3-col gap-5 mb-3">
+			        <div class="d gap-2 item-align-start">
+			        	<h4  class="fw-bold rounded-2 p-2 bg-secondary text-white center-center w-40px h-40px">1</h4>
+			        	<div class="">
+					        <h6 class="fw-semibold  f-20px my-2 f-p">Pilih Paket yang Anda Inginkan</h6>
+					        <p class="f-s">Pilihlah paket berlangganan yang paling sesuai dengan kebutuhan sekolah Anda. Kami menawarkan beberapa pilihan paket, mulai dari yang paling murah (Paket 1 Bulan seharga <b>Rp 120.000</b>) hingga untuk kebutuhan jangka panjang (Paket Tahunan seharga <b>Rp 1.296.000 [diskon 10%]</b>).</p>
+			        	</div>
+			        </div>
+
+			        <div class="gap-2 item-align-start">
+			        	<h4  class="fw-bold rounded-2 p-2 bg-secondary text-white center-center w-40px h-40px">2</h4>
+			        	<div class="">
+				        	<h6 class="fw-semibold  f-20px my-2 f-p">Hubungi Kami untuk Melanjutkan</h6>
+				            <p class="f-s">Untuk melanjutkan pembayaran, hubungi kami melalui WhatsApp atau email dengan tombol yang tersedia di setiap paket berlangganan. Klik <b>"Hubungi kami"</b> untuk WhatsApp, atau <b>"Kirim email"</b> untuk email. Pesan otomatis akan menyesuaikan dengan paket pilihan Anda.</p>
+			        	</div>
+			        </div>
+
+			        <div class="gap-2 item-align-start">
+			        	<h4  class="fw-bold rounded-2 p-2 bg-secondary text-white center-center w-40px h-40px">3</h4>
+			        	<div class="">
+				            <h6 class="fw-semibold  f-20px my-2 f-p">Tanyakan Kebutuhan Anda</h6>
+				            <p class="f-s">Setelah menghubungi kami, Anda dapat menanyakan kebutuhan Anda tentang aplikasi PPDB kami. Kami dengan terbuka akan menjelaskan secara detail kepada Anda.</p>
+				        </div>			      
+			        </div>
+
+			        <div class="gap-2 item-align-start">
+			        	<h4  class="fw-bold rounded-2 p-2 bg-secondary text-white center-center w-40px h-40px">4</h4>
+			        	<div class="">
+				            <h6 class="fw-semibold  f-20px my-2 f-p">Kirim bukti pembayaran</h6>
+				            <p class="f-s">Kami akan menginformasikan metode pembayaran melalui transfer bank atau dompet digital. Kirimkan bukti pembayaran via WhatsApp atau email, dan kami akan segera memverifikasinya.</p>
+				        </div>
+			        </div>
+
+			        <div class="gap-2 item-align-start">
+			        	<h4  class="fw-bold rounded-2 p-2 bg-secondary text-white center-center w-40px h-40px">5</h4>
+			        	<div class="">
+					        <h6 class="fw-semibold  f-20px my-2 f-p">Aktivasi Aplikasi</h6>
+					        <p class="f-s">Begitu kami menerima bukti pembayaran Anda, kami akan segera mengaktifkan akun aplikasi PPDB Anda dan memberikan akses penuh sesuai dengan paket yang Anda pilih. Anda akan menerima semua informasi yang diperlukan untuk mulai menggunakan aplikasi.</p>
+					    </div>
+			        </div>
+
+			        <div class="gap-2 item-align-start">
+			        	<h4  class="fw-bold rounded-2 p-2 bg-secondary text-white center-center w-40px h-40px">6</h4>
+			        	<div class="">
+					        <h6 class="fw-semibold f-20px my-2 f-p">Mulai Gunakan Aplikasi</h6>
+					        <p class="f-s">Setelah akun Anda diaktifkan, Anda dapat langsung mengakses aplikasi dan mulai mengelola pendaftaran peserta didik baru secara mudah dan efisien, dengan semua fitur yang tersedia.</p>
+					    </div>
+			        </div>
+				</div>
+		    </div>
+	  	</div>
+	</section>
+  	<!-- end cara berlangganan -->
+
+  	<!-- pricing -->
+  	<section id="harga">
+	  	<div class="container p-10px-mob py-5">
+	    	<div class="row g-lg-5 pt-5">
+		    	<div class="text-center">
+			        <h4 class="fw-bold mb-3 center f-p">Mulai PPDB dengan Mudah dan Hemat - Pilih Paket yang Tepat untuk Sekolah Anda!</h4>
+			        <p class="f-s">Temukan paket yang sesuai dengan kebutuhan sekolah Anda dan nikmati berbagai manfaat dalam mengelola proses PPDB dengan lebih mudah, efisien, dan efektif. Pilih paket yang sesuai dan nikmati layanan terbaik dengan harga terjangkau!</p>
+			    </div>
+			</div>
+			<div class="price-container w-100 between-center column-mob m-p-0">
+		        <div class="card shadow w-270px w-100pers-mob border bg-third mb-4 borra-15px ">	          
+		          <div class="card-body">
+		          	<div class="h-40px end-start">
+		          	</div>
+		          	
+		          	<h5 class="m-p-0 my-3">Paket 1 Bulan </h5>
+
+		            <h2 class="fw-bold">Rp 120.000</h2>
+		            <h6 class="f-20px m-p-0 opacity-0"><s>Rp 120.000</s></h6>
+		            <p class="my-4">Cocok untuk sekolah yang membutuhkan aplikasi PPDB untuk jangka pendek atau uji coba.</p>
+		            <div class="button-group">
+			            <a href="https://wa.me/6281216227650?text=Halo, saya tertarik dengan Aplikasi Debola PPDB Anda. Saya ingin memesan paket langganan 1 bulan (Rp 120.000), Apakah tersedia?" class="w-100 btn text-white bg-secondary  mx-0 mb-2">Hubungi Kami Via Whatsapp</a>
+		            	<a href="form.html" class="w-100 btn text-secondary bg-outline-secondary fw-bolder mx-0">Kirim Email Kepada Kami</a>	            	
+		            </div>
+		          </div>
+		        </div>
+		        <div class="card shadow w-270px w-100pers-mob bg-third border mb-4 borra-15px">	          
+		          <div class="card-body">
+		          	<div class="h-40px end-start">
+		          		<div class="badge bg-secondary py-2">Diskon 10%</div>	          		
+		          	</div>
+		          	
+		          	<h5 class="m-p-0 my-3">Paket 3 Bulan </h5>
+
+		            <h2 class="fw-bold">Rp 324.000</h2>
+		            <h6 class="f-20px m-p-0"><s>Rp 360.000</s></h6>
+		            <p class="my-4">Cocok untuk sekolah yang ingin menggunakan aplikasi PPDB selama 3 bulan dengan diskon 10%. </p>
+		            <div class="button-group">
+			            <a href="https://wa.me/6281216227650?text=Halo, saya tertarik dengan Aplikasi Debola PPDB Anda. Saya ingin memesan paket langganan 3 bulan (Rp 324.000), Apakah tersedia?" class="w-100 btn text-white bg-secondary  mx-0 mb-2">Hubungi Kami Via Whatsapp</a>
+		            	<a href="form.html" class="w-100 btn text-secondary bg-outline-secondary fw-bolder mx-0">Kirim Email Kepada Kami</a>	            	
+		            </div>
+		          </div>
+		        </div>
+		        <div class="card shadow w-270px w-100pers-mob bg-third border mb-4 borra-15px">	          
+		          <div class="card-body">
+		          	<div class="h-40px end-start">
+		          		<div class="badge bg-secondary py-2">Diskon 10%</div>	          		
+		          	</div>
+		          	
+		          	<h5 class="m-p-0 my-3">Paket 6 Bulan </h5>
+
+		            <h2 class="fw-bold">Rp 648.000 </h2>
+		            <h6 class="f-20px m-p-0"><s>Rp 720.000</s></h6>
+		            <p class="my-4">Cocok untuk sekolah yang membutuhkan aplikasi PPDB selama setengah tahun dengan diskon 10%. </p>
+		            <div class="button-group">
+			            <a href="https://wa.me/6281216227650?text=Halo, saya tertarik dengan Aplikasi Debola PPDB Anda. Saya ingin memesan paket langganan 6 bulan (Rp 648.000), Apakah tersedia?" class="w-100 btn text-white bg-secondary  mx-0 mb-2">Hubungi Kami Via Whatsapp</a>
+		            	<a href="form.html" class="w-100 btn text-secondary bg-outline-secondary fw-bolder mx-0">Kirim Email Kepada Kami</a>	            	
+		            </div>
+		          </div>
+		        </div>
+		        <div class="card shadow w-270px w-100pers-mob bg-third border mb-4 borra-15px">	          
+		          <div class="card-body">
+		          	<div class="h-40px end-start gap-2">
+		          		<div class="badge bg-secondary py-2">Recommended</div>	          		
+		          		<div class="badge bg-secondary py-2">Diskon 10%</div>	          		
+		          	</div>
+		          	
+		          	<h5 class="m-p-0 my-3">Paket Tahunan </h5>
+
+		            <h2 class="fw-bold">Rp 1.296.000</h2>
+		            <h6 class="f-20px m-p-0"><s>Rp 1.440.000</s></h6>
+		            <p class="my-4">Cocok untuk sekolah yang menggunakan aplikasi PPDB untuk selama satu tahun penuh atau lebih dengan diskon 10%.</p>
+		            <div class="button-group">
+			            <a href="https://wa.me/6281216227650?text=Halo, saya tertarik dengan Aplikasi Debola PPDB Anda. Saya ingin memesan paket langganan tahunan (Rp 1.296.000), Apakah tersedia?" class="w-100 btn text-white bg-secondary  mx-0 mb-2">Hubungi Kami Via Whatsapp</a>
+		            	<a href="form.html" class="w-100 btn text-secondary bg-outline-secondary fw-bolder mx-0">Kirim Email Kepada Kami</a>	            	
+		            </div>
+		          </div>
+		        </div>
+		        
+		    </div>
+		    <div class="wrapper bg-secondary text-white mt-4 p-4 borra-15px">
+		    	<h4 class="fw-bold f-p">Penawaran Spesial!</h4>
+		    	<p class="m-p-0 f-s">Dapatkan diskon 10% jika Anda memilih paket berlangganan lebih dari 3 bulan! Semakin lama Anda berlangganan, semakin banyak yang Anda hemat! Jangan lewatkan kesempatan untuk mendapatkan aplikasi PPDB yang lengkap dan efektif dengan harga yang lebih terjangkau.</p>
+		    </div>
+		</div>
+	</section>
+  	<!-- end pricing -->
+
+	<!-- faq -->
+	<section id="faq">
+		<div class="container px-4 py-5">
+	    	<div class="row g-lg-5 py-5">
+		    	<div class=" text-center">
+			        <h4 class="fw-bold mb-3 f-p">Pertanyaan yang Sering Diajukan (FAQ)</h4>
+			    </div>
+		    	 <div class="faq-container gap-4 mb-3">
+			        <div class="d-flex flex-column gap-2">
+			          <h6 class="fw-semibold mb-0 f-p">Apa itu Debola PPDB?</h6>
+			          <p class="f-s">Debola PPDB adalah platform digital yang dirancang untuk mempermudah proses pendaftaran peserta didik baru di sekolah. Aplikasi ini memungkinkan pengisian formulir, verifikasi data, dan manajemen pendaftaran secara online, serta memudahkan petugas dalam mengelola data peserta. Pastinya, aplikasi ini akan membuat kegiatan PPDB menjadi lebih mudah dan efisien untuk dilaksanakan.</p>
+			        </div>
+
+			        <div class="d-flex flex-column gap-2">
+			          <h6 class="fw-semibold mb-0 f-p">Bagaimana cara menggunakan aplikasi PPDB?</h6>
+			          <p class="f-s">Kami menyediakan tutorial penggunaan aplikasi PPDB dengan jelas dan sederhana yang dapat Anda baca dan pelajari di dalam aplikasi Debola PPDB. Sehingga, Anda tidak perlu khawatir saat mengalami kesulitan menggunakan aplikasi PPDB. Selain itu, Anda dapat menghubungi kami melalui whatsapp atau email dan memberitahukan kendala yang Anda alami.</p>
+			        </div>
+
+			        <div class="d-flex flex-column gap-2">
+			          <h6 class="fw-semibold mb-0 f-p">Saya tidak bisa mengkustomisasi aplikasi PPDB?</h6>
+			          <p class="f-s">Jika Anda merasa kesulitan dalam mengkustomisasi aplikasi PPDB, kami siap membantu Anda dengan mengkustomisasikan aplikasi PPDB secara gratis. Anda cukup mengirim informasi yang akan dicantumkan pada formulir pendaftaran, landing page, dan kertas bukti pendaftaran. Dengan begitu kami segera mengkustomisasikan apliksi segera.</p>
+			        </div>
+
+			        <div class="d-flex flex-column gap-2">
+			          	<h6 class="fw-semibold mb-0 f-p">Apakah ada biaya untuk menggunakan aplikasi ini?</h6>
+			          	<p class="f-s m-p-0">Aplikasi PPDB kami tersedia dalam berbagai paket, setiap paket telah memenuhi kebutuhan kegiatan PPDB di sekolah Anda. Berikut paket yang kami tawarkan kepada Anda:
+			          		<ol class="m-0 f-s">
+								<li>Paket 1 Bulan seharga Rp 120.000.</li>
+								<li>Paket 3 Bulan seharga Rp 324.000 (dengan diskon 10%).</li>
+								<li>Paket 6 Bulan seharga Rp 648.000 (dengan diskon 10%).</li>
+								<li>Paket Tahunan seharga Rp 1.296.000 (dengan diskon 10%).</li>
+							</ol>
+						</p>
+			        </div>
+
+			        <div class="d-flex flex-column gap-2">
+			          <h6 class="fw-semibold mb-0 f-p">Apakah Aplikasi Debola PPDB mendukung PPDB berbayar?</h6>
+			          <p class="f-s">Ya, Aplikasi Debola PPDB menunjang kegiatan PPDB yang memiliki biaya pendaftaran. Anda dapat mengatur alur pendaftaran menajdi berbayar dan menetapkan jumlah biaya pendaftaran peserta.</p>
+			        </div>
+			        <div class="d-flex flex-column gap-2">
+			          <h6 class="fw-semibold mb-0 f-p">Bagaimana cara memverifikasi pendaftaran peserta?</h6>
+			          <p class="f-s">Petugas PPDB dapat memverifikasi data pendaftar melalui aplikasi dengan memilih status pendaftaran yang sesuai. Dengan sekali klik, petugas dapat memverifikasi pendaftaran peserta. Petugas juga dapat mengirim email kepada Pendaftar kapanpun dan di manapun.</p>
+			        </div>
+
+			        <div class="d-flex flex-column gap-2">
+			          <h6 class="fw-semibold mb-0 f-p">Apakah data saya aman di aplikasi ini?</h6>
+			          <p class="f-s">Kami sangat menghargai privasi Anda. Data yang Anda kirimkan akan disimpan dengan aman menggunakan teknologi enkripsi dan hanya dapat diakses oleh petugas yang berwenang.</p>
+			        </div>
+
+			        <div class="d-flex flex-column gap-2">
+			          <h6 class="fw-semibold mb-0 f-p">Bagaimana jika saya mengalami masalah atau butuh bantuan?</h6>
+	 			          <p class="f-s">Jika Anda membutuhkan bantuan lebih lanjut, Anda dapat menghubungi kami melalui <a href="081216227650" class="inline fw-bold text-dark"><u>whatsapp</u></a> atau mengirim pesan melalui <a href="debolamarket@gmail.com" class="inline fw-bold text-dark"><u>email</u></a>. Kami siap membantu Anda dengan cepat.</p>
+			        </div>
+
+			        <div class="d-flex flex-column gap-2">
+			          <h6 class="fw-semibold mb-0 f-p">Apakah aplikasi ini bisa dikustomisasi?</h6>
+			          <p class="f-s">Ya, aplikasi PPDB kami dapat disesuaikan dengan kebutuhan spesifik sekolah Anda, seperti form pengisian, tampilan halaman, kertas bukti pendaftaran, dan lainnya. Petugas PPDB dapat melakukan kustomisasi sesuai kebutuhan. </p>
+			        </div>		
+
+
+			        <div class="d-flex flex-column gap-2">
+			          <h6 class="fw-semibold mb-0 f-p">Apakah aplikasi ini bisa diakses di perangkat mobile?</h6>
+			          <p class="f-s">Ya, aplikasi PPDB kami dapat diakses dengan mudah di berbagai perangkat, termasuk laptop, komputer, tablet, dan ponsel, sehingga Anda dapat menggunakannya kapan saja dan di mana saja.</p>
+			        </div>        
+				</div>
+		    </div>
+	  	</div>
+	 </section>
+  	<!-- end faq -->
+
+  	<!-- formulir lead -->
+	<section id="pesan" class="bg-third">
+	 	<div class="container px-4 py-5">
+	    	<div class="row g-lg-5 py-5">
+		    	<div class="col-lg-7 column text-lg-start">
+			        <h1 class="fw-bold f-p center">Tanyakan Apa Saja Tentang Aplikasi Kami</h1>
+			        <div class="row row-cols-1 row-cols-sm-2 g-4 my-1">
+				        <div class="column-start gap-2">
+				          <h6 class="fw-semibold mb-2 f-p">Ada pertanyaan?</h6>
+				          <p class="f-s"> Kami siap menjawab semua pertanyaan Anda tentang aplikasi PPDB yang kami tawarkan.</p>
+				        </div>
+
+				        <div class="column-start gap-2">
+				          <h6 class="fw-semibold mb-2 f-p">Butuh Bantuan?</h6>
+				          <p class="f-s">Jangan ragu untuk bertanya tentang fitur atau masalah yang Anda hadapi, kami selalu siap membantu.</p>
+				        </div>
+
+				        <div class="column-start gap-2">
+				          <h6 class="fw-semibold mb-2 f-p">Kustomisasi Aplikasi?</h6>
+				          <p class="f-s">Ingin menyesuaikan aplikasi sesuai dengan kebutuhan sekolah Anda? Kami bersedia membantu Anda setiap langkahnya.</p>
+				        </div>
+
+				        <div class="column-start gap-2">
+				          <h6 class="fw-semibold mb-2 f-p">Tentang Berlangganan?</h6>
+				          <p class="f-s">Tanyakan kepada kami tentang berlangganan aplikasi dan Kami akan menjelaskan rincian pembayaran dengan detail.</p>
+				        </div>
+				      </div>
+				    <a href="https://wa.me/6281216227650?text=Halo, saya tertarik dengan aplikasi PPDB Anda. Apakah saya bisa mendapatkan informasi lebih lanjut?" class="btn bg-secondary text-white rounded-0  px-4"><img src="icon/telephone.png" width="20px" class="invert me-3">Hubungi Melalui WhatsApp</a>
+			     </div>
+			    <div class="col-md-10 mx-auto col-lg-5 border p-4 m-30px-tab bg-white item-align-start shadow">
+			      <h5 class="text-center fw-bold f-p">Kirim pesan melalui email</h5>
+			      <p class="text-muted center my-2 f-s">Ajukan pertanyaan Anda melalui email dan kami segera menjawab dengan detail.</p>
+			      <form action="https://formspree.io/f/mkgnqzkr" method="POST">
+					<div class="form-floating mb-3">
+					  <input type="text" class="form-control rounded-0" id="name" name="name" required placeholder="Nama Anda">
+					  <label for="name">Nama</label>
+					</div>
+			        <div class="form-floating mb-3">
+					  <input type="email" class="form-control rounded-0" id="email" name="email" required placeholder="name@example.com">
+					  <label for="email">Email</label>
+					</div>
+			        <div class="form-floating mb-3">
+					  <textarea class="form-control rounded-0" name="message" required placeholder="Leave a comment here" id="message"></textarea>
+					  <label for="message">Pesan</label>
+					</div>
+			        <div class="form-group mb-3">
+			          <select class="form-control rounded-0" id="topic" name="topic" required>
+			          	<option value="" hidden>Pilih Topik Pertanyaan</option>
+			            <option value="aplikasi">Tentang Aplikasi</option>
+			            <option value="harga">Harga dan Pembelian</option>
+			            <option value="fitur">Fitur dan Kustomisasi</option>
+			            <option value="lainnya">Lainnya</option>
+			          </select>
+			        </div>
+			        <button type="submit" class="btn bg-secondary text-white rounded-0 btn-block w-100">Kirim Pesan</button>
+			      </form>
+			    </div>
+		    </div>
+	  	</div>
+  	</section>
+  	<!-- end formulir lead -->
+
+  	<!-- footer -->
+  	<section>
+	  	<div class="container">
+		  <footer class="between-start pt-5 my-5 column-start-mob">
+		    <div class="col mb-3 h-200px h-auto-mob between-center-mob w-40pers w-100pers-mob">
+		    	<div class="column-start between-center-mob gap-2">
+	    			<img src="icon/logo.png" class="w-50px w-35px-mob" alt="logo debola market">		    	
+		    	    <h5 class="m-0-mob f-25px-mob">Debola PPDB</h5>
+		    	</div>      
+		    </div>
+
+		    <div class="row between-center column-mob w-60pers w-100pers-mob">
+			    <div class="col mb-3 item-align-start">
+			      <h5 class="fw-bold">Informasi Kontak</h5>
+			      <ul class="nav flex-column">
+			        <li class="nav-item mb-2"><a href="mailto:debolamarket@gmail.com" class="nav-link p-0 text-dark">Email : debolamarket@gmail.com</a></li>
+			        <li class="nav-item mb-2"><a href="tel:+6281216227650" class="nav-link p-0 text-dark">Nomor Telepon : +62 812-1622-7650</a></li>
+			      </ul>
+			    </div>
+
+			    <div class="col mb-3 item-align-start">
+			      <h5 class="fw-bold">Social Media	</h5>
+			      <ul class="nav flex-column">
+			        <li class="nav-item mb-2">
+			        	<a href="https://www.facebook.com/profile.php?id=61566936352309&amp;mibextid=kFxxJD" target="_blank" class="text-dark start-center gap-1">
+							<div class="circle-30px me-2 center-center bg-dark">
+								<img src="icon/facebook.png" width="20px" class="invert">
+							</div> 
+							Facebook
+						</a>
+					</li>
+				    <li class="nav-item mb-2">
+				    	<a href="https://www.instagram.com/debola_market/profilecard/?igsh=MWltMHU2Y2MzdHB4eA==" target="_blank" class="text-dark start-center gap-1">
+				    		<div class="circle-30px me-2 center-center bg-dark">
+								<img src="icon/instagram.png" width="20px" class="invert"> 
+							</div>
+							Instagram
+						</a>
+					</li>
+			      </ul>
+			    </div>
+		    </div>
+		  </footer>
+		  <p class="center text-muted">Copyright Debola market 2024</p>
+		</div>
+	</section>
+  	<!-- end footer -->
+
+
+	<script src="bootstrap-5.2/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
